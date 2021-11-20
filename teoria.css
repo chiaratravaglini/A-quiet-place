@@ -660,7 +660,7 @@
 
 @media (max-width: 1199px) {
   .u-section-11 .u-sheet-1 {
-    min-height: 1005px;
+    min-height: 1101px;
   }
 
   .u-section-11 .u-text-1 {
@@ -669,28 +669,35 @@
   }
 
   .u-section-11 .u-text-3 {
-    margin-top: 75px;
+    width: auto;
   }
 
   .u-section-11 .u-text-4 {
-    width: 803px;
+    width: auto;
     margin-top: 20px;
+    margin-right: 137px;
   }
 
   .u-section-11 .u-image-1 {
     width: 940px;
     height: 214px;
-    margin-left: 584px;
+    margin-top: 0;
+    margin-left: -9px;
+  }
+
+  .u-section-11 .u-text-5 {
+    width: auto;
+    margin-top: 29px;
   }
 
   .u-section-11 .u-image-2 {
-    margin-bottom: 44px;
+    margin-bottom: -7px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-11 .u-sheet-1 {
-    min-height: 955px;
+    min-height: 1051px;
   }
 
   .u-section-11 .u-text-1 {
@@ -703,7 +710,7 @@
   }
 
   .u-section-11 .u-text-4 {
-    width: 720px;
+    margin-right: 0;
   }
 
   .u-section-11 .u-image-1 {
@@ -715,7 +722,7 @@
 
 @media (max-width: 767px) {
   .u-section-11 .u-sheet-1 {
-    min-height: 914px;
+    min-height: 1010px;
   }
 
   .u-section-11 .u-text-1 {
@@ -724,10 +731,6 @@
 
   .u-section-11 .u-text-3 {
     margin-top: 222px;
-  }
-
-  .u-section-11 .u-text-4 {
-    width: 540px;
   }
 
   .u-section-11 .u-image-1 {
@@ -739,7 +742,7 @@
 
 @media (max-width: 575px) {
   .u-section-11 .u-sheet-1 {
-    min-height: 868px;
+    min-height: 964px;
   }
 
   .u-section-11 .u-text-1 {
@@ -748,10 +751,6 @@
 
   .u-section-11 .u-text-3 {
     margin-top: 485px;
-  }
-
-  .u-section-11 .u-text-4 {
-    width: 340px;
   }
 
   .u-section-11 .u-image-1 {
@@ -790,7 +789,7 @@
 
 @media (max-width: 1199px) {
   .u-section-12 .u-sheet-1 {
-    min-height: 1843px;
+    min-height: 1203px;
   }
 
   .u-section-12 .u-text-1 {
@@ -798,9 +797,14 @@
     margin-right: 137px;
   }
 
+  .u-section-12 .u-text-3 {
+    margin-top: 20px;
+  }
+
   .u-section-12 .u-image-1 {
     width: 940px;
     height: 577px;
+    margin-bottom: -593px;
   }
 }
 
@@ -812,6 +816,10 @@
   .u-section-12 .u-text-1 {
     width: 720px;
     margin-right: 0;
+  }
+
+  .u-section-12 .u-text-3 {
+    margin-top: 0;
   }
 
   .u-section-12 .u-image-1 {
