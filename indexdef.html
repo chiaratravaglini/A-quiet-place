@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | A Quiet Place: Pedalando nel Bosco</title>
+    <link rel="shortcut icon" href="TemplateDatadef/favicon.ico">
+    <link rel="stylesheet" href="TemplateDatadef/style.css">
+    <script src="TemplateDatadef/UnityProgress.js"></script>
+    <script src="Builddef/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Builddef/Build4.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 550px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">A Quiet Place: Pedalando nel Bosco</div>
+      </div>
+    </div>
+  </body>
+</html>
