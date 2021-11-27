@@ -34,71 +34,78 @@
     min-height: 634px;
   }
 
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 72px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .u-section-1 .u-text-2 {
-    margin-left: 57px;
-    margin-right: 57px;
-    width: 826px;
+    width: auto;
+    margin-top: 12px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-3 {
-    margin-left: 520px;
-    width: 569px;
+    width: auto;
+    margin-top: 19px;
+    margin-right: 0;
+    margin-left: 371px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 486px;
+    min-height: 702px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 65px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
-    width: 720px;
+    margin-top: 19px;
   }
 
   .u-section-1 .u-text-3 {
-    margin-left: 410px;
+    margin-left: 360px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 365px;
+    min-height: 528px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 3.75rem;
   }
 
-  .u-section-1 .u-text-2 {
-    width: 540px;
-  }
-
   .u-section-1 .u-text-3 {
-    margin-left: 320px;
-    width: 540px;
+    margin-left: 168px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 230px;
+    min-height: 584px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: 76px;
     font-size: 3rem;
+    margin-top: 75px;
   }
 
   .u-section-1 .u-text-2 {
-    width: 340px;
+    margin-top: 9px;
   }
 
   .u-section-1 .u-text-3 {
-    margin-left: 220px;
-    width: 340px;
     font-size: 1.5rem;
+    margin-top: 36px;
+    margin-left: 170px;
   }
 } .u-section-2 {
   background-image: url("images/MonteRosa.png");

@@ -96,7 +96,7 @@
         <h3 class="u-text u-text-1">Traslazione</h3>
         <p class="u-text u-text-2"> In una traslazione ogni punto del piano viene spostato nella stessa direzione e nello stesso verso e secondo una stessa distanza. Quindi prendendo in considerazione il punto R, una traslazione avviene grazie a un vettore w che agisce sul punto R → R+w=R'. Ciò avviene per ogni punto della figura.<br>
         </p>
-        <img class="u-image u-image-default u-image-1" src="images/traslazione2.png" alt="" data-image-width="264" data-image-height="193">
+        <img class="u-image u-image-contain u-image-default u-image-1" src="images/traslazione2.png" alt="" data-image-width="264" data-image-height="193">
       </div>
     </section>
     <section class="u-clearfix u-grey-5 u-section-5" id="sec-a51a">
@@ -104,7 +104,7 @@
         <h3 class="u-text u-text-1"> Rotazione</h3>
         <p class="u-text u-text-2"> Le rotazioni sono trasformazioni caratterizzate da un punto fisso (chiamato O) e dall’ampiezza di un angolo (chiamato alfa). Le rotazioni quindi:<br>1. Hanno un punto fisso chiamato centro di rotazione.<br>2. Sono tali per cui i punti e i loro corrispondenti hanno uguale distanza dal centro di rotazione.<br>3. Spostano tutti i punti del piano di uno stesso angolo alfa.<br>
         </p>
-        <img class="u-image u-image-default u-image-1" src="images/rotazione1.png" alt="" data-image-width="327" data-image-height="328">
+        <img class="u-image u-image-contain u-image-default u-image-1" src="images/rotazione1.png" alt="" data-image-width="327" data-image-height="328">
       </div>
     </section>
     <section class="u-clearfix u-grey-5 u-section-6" id="sec-534a">
@@ -112,7 +112,7 @@
         <p class="u-heading-font u-text u-text-1"> Un altro tipo di trasformazione che viene applicato alle figure è l’omotetia o similitudine. Questa trasformazione viene usata per fare in modo che più oggetti possano entrare all’interno delle borse della bicicletta, diminuendone la dimensione. Vediamo dal punto di vista geometrico come funziona tale trasformazione.</p>
         <h3 class="u-text u-text-2">Similitudine</h3>
         <p class="u-text u-text-3"> Una similitudine è una trasformazione geometrica affine in cui resta invariato il rapporto fra le distanze di coppie di punti corrispondenti A,B e A’,B’ ovvero:AB = k A’B’Esempio con immagine oggetto del gioco che viene ridotto</p>
-        <img class="u-image u-image-default u-image-1" src="images/simili2.png" alt="" data-image-width="402" data-image-height="154">
+        <img class="u-image u-image-contain u-image-default u-image-1" src="images/simili2.png" alt="" data-image-width="402" data-image-height="154">
       </div>
     </section>
     <section class="u-clearfix u-grey-5 u-section-7" id="sec-a8a0">
@@ -131,7 +131,7 @@
           <br>
         </p>
         <img class="u-image u-image-contain u-image-default u-image-1" src="images/cubicbez.png" alt="" data-image-width="496" data-image-height="235">
-        <img class="u-image u-image-contain u-image-default u-image-2" src="images/equazcubica.png" alt="" data-image-width="1231" data-image-height="96">
+        <img class="u-expanded-width-xs u-image u-image-contain u-image-default u-image-2" src="images/equazcubica.png" alt="" data-image-width="1231" data-image-height="96">
       </div>
     </section>
     <section class="u-clearfix u-grey-5 u-section-9" id="sec-de5e">
@@ -139,12 +139,12 @@
         <h5 class="u-text u-text-1">Come si arriva a questa definizione?</h5>
         <p class="u-text u-text-2">La costruzione di una curva di Bézier può essere vista come un processo iterativo e progressivo. Se iniziamo a scomporre la figura sopra, possiamo visualizzare meglio gli elementi costitutivi della curva.<br>
         </p>
-        <img class="u-image u-image-contain u-image-default u-image-1" src="images/linear1.png" alt="" data-image-width="496" data-image-height="235">
+        <img class="u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-image-1" src="images/linear1.png" alt="" data-image-width="496" data-image-height="235">
         <p class="u-text u-text-3">Questa è una curva di Bézier lineare, di grado 1.&nbsp;</p>
-        <img class="u-image u-image-contain u-image-default u-image-2" src="images/quadraticbez.png" alt="" data-image-width="1036" data-image-height="235">
+        <img class="u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-image-2" src="images/quadraticbez.png" alt="" data-image-width="1036" data-image-height="235">
         <p class="u-text u-text-4">Mentre queste sono due curve di Bézier quadratiche. Si ottengono interpolando le due curve lineari a partire da P0P2 e P2P3.<br>Da qui si può già capire che interpolando queste due curve di Bézier quadratiche si ottiene la curva di Bézier cubica definita prima.
         </p>
-        <img class="u-image u-image-contain u-image-default u-image-3" src="images/decas.png" alt="" data-image-width="592" data-image-height="32">
+        <img class="u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-image-3" src="images/decas.png" alt="" data-image-width="592" data-image-height="32">
         <p class="u-text u-text-5">Proprio così, quindi, a partire dalle curve di Bézier di grado 1, siamo arrivati a definire una curva di Bézier di grado 3. Ovviamente per fare questo processo esiste un algoritmo apposito, chiamato algoritmo ricorsivo di De Casteljau:<br>
           <br>
           <br>E’ possibile notare fin da subito come le curve di Bézier di grado 3 siano ideali per ottenere la rappresentazione collinare desiderata all’interno di "A Quiet Place: Pedalando nel Bosco".​ Inizialmente si erano considerate anche le curve quadratiche per la realizzazione del terreno, ma in seguito si è notato che l'aspetto finale risultava troppo segmentato. Con le curve di Bézier cubiche invece l'effetto è esattamente quello desiderato.
@@ -166,7 +166,7 @@
         </h4>
         <p class="u-text u-text-4">Sulle immagini di sfondo viene applicato l'effetto Parallasse. Tale tecnica viene usata per rendere più dinamico il paesaggio,&nbsp; facendo muovere a velocità differenti le immagini di sfondo, creando un effetto simile a quello che si prova nella realtà, quando si ammira un paesaggio mentre si è in movimento.<br>Quindi iniziamo definendo lo scenario di gioco che è costituito da 5 immagini di sfondo e il terreno di gioco in primo piano su cui si muove il ciclista. Immaginiamo di avere lo scenario di gioco replicato in 3 parti di uguali dimensioni. Ognuna delle parti ha dimensione pari al campo visivo della Camera di gioco:
         </p>
-        <img class="u-image u-image-contain u-image-default u-image-1" src="images/parallax.png" alt="" data-image-width="1089" data-image-height="276">
+        <img class="u-expanded-width-xs u-image u-image-contain u-image-default u-image-1" src="images/parallax.png" alt="" data-image-width="1089" data-image-height="276">
         <p class="u-text u-text-5">Quando il giocatore inizia a muoversi verso destra, anche la Camera si sposta insieme a lui. Una volta che ciclista e Camera si saranno spostati&nbsp; nel segmento di&nbsp; scenario di gioco di destra, il segmento di sinistra viene spostato alla destra del segmento in cui si trova il giocatore. Questa semplice&nbsp;operazione si ripete ogni volta che il giocatore si sposta verso destra&nbsp; e passa il confine tra un segmento e l'altro, andando a&nbsp; creare un effetto di continuità&nbsp; del paesaggio. L'ulteriore vantaggio è dal punto di vista computazionale, perché gestire un unico blocco di grandi dimensioni avrebbe avuto un peso maggiore sulle prestazioni di gioco.</p>
         <img class="u-expanded-width u-image u-image-contain u-image-default u-image-2" src="images/parallaxchange1.png" alt="" data-image-width="1451" data-image-height="401">
       </div>
@@ -181,7 +181,7 @@
         </p>
         <p class="u-text u-text-4">Step 1. Determino il numero di curve di Bézier N da inserire nel terreno (con N da 8 a 15, per semplificare, nell'immagine sono rappresentate solo 4 curve).<br>Step 2. Inserisco N-1 punti di incollamento (punti rossi) e si applica uno spostamento lungo y+ in modo da rendere interessante il percorso.<br>Step 3. ​Automaticamente vengono aggiunti i punti di controllo (punti blu) con incollamento C1 (di default), in modo da ottenere curve di Bézier cubiche.<br>Step 4. Ogni punto di incollamento all'interno del terreno viene preso come centro di una rotazione che coinvolge i due punti di controllo vicini. La rotazione applicata è tale da rendere varie le pendenze. La posizione dei punti di controllo vicini agli estremi del terreno (secondo e penultimo punto di controllo) non viene modificata in modo tale da ottenere un percorso pianeggiante alla partenza e in prossimità dell'arrivo del percorso.<br>Step 5. Si considera ogni vettore che parte dal punto di incollamento e termina nel punto di controllo vicino (2 vettori per ogni punto di incollamento). Si modifica la norma di tali vettori. In questo modo l'incollamento diventa di tipo G1.<br>Step 6. Si tracciano le curve di Bézier e si ottiene la spline di output.
         </p>
-        <img class="u-image u-image-contain u-image-default u-image-1" src="images/algorithmcurves5.png" alt="" data-image-width="1318" data-image-height="1764">
+        <img class="u-expanded-width-xs u-image u-image-contain u-image-default u-image-1" src="images/algorithmcurves5.png" alt="" data-image-width="1318" data-image-height="1764">
         <p class="u-text u-text-5">Tra un blocco di terreno e l'altro l'incollamento rimane G1 perché:<br>1. Il punto di controllo finale del blocco precedente coincide con il punto iniziale del blocco successivo.<br>2. Il penultimo punto di controllo del blocco precedente,&nbsp; il secondo punto di controllo del blocco successivo e i punti di incollamento giacciono sulla stessa retta.
         </p>
         <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-image-2" src="images/blocchi2.png" alt="" data-image-width="2181" data-image-height="295">
@@ -191,7 +191,7 @@
       <div class="u-clearfix u-sheet u-sheet-1">
         <h3 class="u-text u-text-1">Bibliografia</h3>
         <ul class="u-text u-text-2">
-          <li> https://www.gameludere.it/2019/08/10/spline-curve-di-bezier-e-loro-utilizzo-nei-videogiochi/</li>
+          <li>https://www.gameludere.it/2019/08/10/spline-curve-di-bezier-e-loro-utilizzo-nei-videogiochi/</li>
           <li>https://en.wikibooks.org/wiki/Cg_Programming<br>
           </li>
           <li>Farin,
